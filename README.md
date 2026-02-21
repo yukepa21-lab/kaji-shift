@@ -44,7 +44,7 @@ Next.jsとSupabaseを用いた、不規則シフト勤務者向けの家庭タ�
 
 ### ワイヤーフレーム
 
-- [ワイヤーフレーム](docs/wireframe-pc.png)
+- [ワイヤーフレーム](docs/wireframe.png)
 
 ### ワークフロー図
 
