@@ -34,7 +34,7 @@ Next.jsとSupabaseを用いた、不規則シフト勤務者向けの家庭タ�
 
 ## 設計ドキュメント
 
-[要件定義・基本設計・詳細設計の一覧（Googleスプレッドシート）](ここにGoogleスプレッドシートの共有URLを貼る)
+[要件定義・基本設計・詳細設計の一覧（Googleスプレッドシート）](https://docs.google.com/spreadsheets/d/1NxAUjBXdZT_7eYK4DKmnyMb2nW1UJ7eciBbVvs4MZKk/edit?usp=sharing)
 
 詳細設計時のワイヤーフレーム、ER図、ワークフロー図の画像はdocsディレクトリに格納しています。（[こちらからアクセス](docs/)）
 
