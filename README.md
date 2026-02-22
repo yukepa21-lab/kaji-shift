@@ -11,15 +11,11 @@ Next.jsとSupabaseを用いた、不規則シフト勤務者向けの家庭タ�
 
 ## サイトイメージ
 
-<!-- アプリ完成後、メインページのスクリーンショットをdocs/に格納し、以下のコメントアウトを解除してください -->
-<!-- ![アプリ画面](docs/app-screenshot.png) -->
+![アプリ画面](docs/app-screenshot.png)
 
 ## サイトURL
 
-<!-- デプロイ後、以下にVercelのURLを貼ってください -->
-<!-- https://kaji-shift.vercel.app/ -->
-
-（デプロイ後に追記予定）
+https://kajishift-app.vercel.app/
 
 ## 使用技術
 
@@ -34,18 +30,9 @@ Next.jsとSupabaseを用いた、不規則シフト勤務者向けの家庭タ�
 
 ## 設計ドキュメント
 
-[要件定義・基本設計・詳細設計の一覧（Googleスプレッドシート）](ここにGoogleスプレッドシートの共有URLを貼る)
+[要件定義・基本設計・詳細設計の一覧（Googleスプレッドシート）](https://docs.google.com/spreadsheets/d/1NxAUjBXdZT_7eYK4DKmnyMb2nW1UJ7eciBbVvs4MZKk/edit?usp=sharing)
 
 詳細設計時のワイヤーフレーム、ER図、ワークフロー図の画像はdocsディレクトリに格納しています。（[こちらからアクセス](docs/)）
-
-### ペルソナ
-
-| 項目 | ユーザー1（本人） | ユーザー2（妻） |
-|------|------------------|----------------|
-| 属性 | 27歳男性、施工管理職、2児の父 | 女性、2児の母（専業） |
-| 勤務形態 | 日勤/夜勤の不規則シフト | - |
-| デジタルリテラシー | Office 365を業務利用 | スマホは日常的に使用 |
-| 核心課題 | 生活リズムの乱れ→家事参加が不安定 | 夫の不規則勤務→家事負担の偏り |
 
 ### ER図
 
@@ -53,8 +40,7 @@ Next.jsとSupabaseを用いた、不規則シフト勤務者向けの家庭タ�
 
 ### ワイヤーフレーム
 
-- [SP版ワイヤーフレーム](docs/wireframe-sp.png)
-- [PC版ワイヤーフレーム](docs/wireframe-pc.png)
+- [ワイヤーフレーム](docs/wireframe.png)
 
 ### ワークフロー図
 
@@ -81,12 +67,10 @@ Next.jsとSupabaseを用いた、不規則シフト勤務者向けの家庭タ�
 
 ## テスト・修正の設計及び実施書
 
-<!-- テスト実施後、以下にGoogleスプレッドシートの共有URLを貼ってください -->
-（テスト実施後に追記予定）
+[テスト設計＆実施書（Googleスプレッドシート）](https://docs.google.com/spreadsheets/d/1Lp_UgFwKjh5lkcAmZG4LZRkZq09L41fI5dpeHietuMw/edit?usp=sharing)
 
 ## アプリの改善案
 
-<!-- 改善案作成後、以下にGoogleスプレッドシートの共有URLを貼ってください -->
 （改善案作成後に追記予定）
 
 ## 備考
@@ -94,6 +78,7 @@ Next.jsとSupabaseを用いた、不規則シフト勤務者向けの家庭タ�
 - 活用した生成AIとその用途
   - ChatGPT / Claude：要件定義、設計、各種リサーチ
   - v0：アプリのモック作成、フロントエンド実装
+  - Cline（VS Code拡張）：ローカル環境でのコード修正
 - リファクタリングの規則
   - 2つ以上のファイルで使う、行数が10以上のUIコンポーネントはcomponentsフォルダに移行
   - 2つ以上のファイルで使う、行数が10以上の関数はlibフォルダに移行
