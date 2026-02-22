@@ -19,12 +19,14 @@ https://kajishift-app.vercel.app/
 
 ## 使用技術
 
-- フロントエンド：Next.js（React）
+- フロントエンド：Next.js 16.1（React 19）
 - バックエンド：Next.js API Routes
 - データベース：PostgreSQL（Supabase）
 - 認証：Supabase Auth
 - デプロイ：Vercel
 - バージョン管理：Git、GitHub
+- テスト・デバッグ：DevTools（Chrome）
+- CI/CD：GitHub Actions（ESLint）
 - 開発環境：VS Code
 - デザイン・プロトタイプ：v0
 
@@ -67,13 +69,12 @@ https://kajishift-app.vercel.app/
 
 ## テスト・修正の設計及び実施書
 
-[テスト設計＆実施書（Googleスプレッドシート）](https://docs.google.com/spreadsheets/d/1Lp_UgFwKjh5lkcAmZG4LZRkZq09L41fI5dpeHietuMw/edit?usp=sharing)
+[テスト・修正の設計及び実施書（Googleスプレッドシート）](https://docs.google.com/spreadsheets/d/1Lp_UgFwKjh5lkcAmZG4LZRkZq09L41fI5dpeHietuMw/edit?usp=sharing)
 
-## アプリの改善案
-
-（改善案作成後に追記予定）
 
 ## 備考
+
+[ESLintの実行結果（GitHub Actions）](https://github.com/yukepa21-lab/kajishift-app/actions/runs/22277528471)
 
 - 活用した生成AIとその用途
   - ChatGPT / Claude：要件定義、設計、各種リサーチ
